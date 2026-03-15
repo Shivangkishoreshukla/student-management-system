@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'https://student-management-system-v0uv.onrender.com'; 
+const API_BASE_URL = 'https://student-management-system-2-m693.onrender.com'; 
 
 const api = axios.create({
   baseURL: API_BASE_URL,
