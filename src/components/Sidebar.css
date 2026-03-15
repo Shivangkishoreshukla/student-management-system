@@ -1,0 +1,47 @@
+.sidebar {
+  height: 100vh;
+  color: white;
+  padding: 20px 0;
+}
+
+.sidebar-header {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #4a5568;
+  margin-bottom: 20px;
+}
+
+.sidebar-header h3 {
+  margin: 0;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.nav {
+  padding: 0 15px;
+}
+
+.nav-link {
+  color: #cbd5e0 !important;
+  padding: 12px 15px !important;
+  margin-bottom: 5px;
+  border-radius: 6px;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link:hover {
+  background-color: #4a5568;
+  color: white !important;
+}
+
+.nav-link.active {
+  background-color: #007bff;
+  color: white !important;
+}
+
+.nav-icon {
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
